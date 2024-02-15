@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains a Python script designed to automate the process of adding multiple users and their respective groups to a Linux system. The purpose of this script is to streamline the configuration of new or existing systems by reading from a predefined input file that lists all the users to be added. This approach eliminates the need for manual user creation, making it especially useful for administrators managing a large number of systems.
+This repository creates a python script to automate the process of adding several users and their corresponding groups to a linux system. This script reads from an input file that contains a list of all the users that need to be added in order to expedite the configuration process from new systems. .
 
 The repository also includes a sample input file, `create-users.input`, which serves as a template for specifying the user data in a structured format. This script is intended to demonstrate basic principles of automation with Python in a Linux environment.
 
@@ -10,7 +10,7 @@ The repository also includes a sample input file, `create-users.input`, which se
 
 ### Preparing the Environment
 
-Before running the script, ensure Python 3 is installed on your system. You can verify this by running `python3 --version` in your terminal. If Python 3 is not installed, you will need to install it using your distribution's package manager.
+Before executing the script, it is essential to ensure that Python 3 is installed on your system. If Python 3 is already installed, you can proceed to run the script. If not, you can install it using your distribution's package manager.
 
 ### Running the Script
 
